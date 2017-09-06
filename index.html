@@ -1,0 +1,115 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+
+		<title>Tic Tac Toe</title>
+		
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/game.js"></script>
+		
+	</head>
+
+	<body>
+
+		<section id="menu">
+			<table id="menu-table">
+				<tbody>
+					<tr>
+						<td colspan="3" id="menu-title">
+							<span>Tic Tac Toe</span>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<img src="images/player1.png">
+							<br />
+							<input type="text" name="player1" maxlength="12" placeholder="Apelido do jogador 1" id="nickname1">
+						</td>
+						<td>
+							<img src="images/start.png" id="btn-start">
+						</td>
+						<td>
+							<img src="images/player2.png">
+							<br />
+							<input type="text" name="player1" maxlength="12" placeholder="Apelido do jogador 2" id="nickname2">
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</section>
+
+		<section id="game">
+			<div>
+				<img src="images/player1.png">
+				<br />
+				<span id="player1-nick"></span>
+			</div>
+			<div>
+				<table id="game-table">
+					<tbody>
+						<tr>
+							<td class="border-top-none border-left-none">
+								<div id="a1" class="game-position">
+									
+								</div>
+							</td>
+							<td class="border-top-none">
+								<div id="a2" class="game-position">
+									
+								</div>
+							</td>
+							<td class="border-top-none border-right-none">
+								<div id="a3" class="game-position">
+									
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td class="border-left-none">
+								<div id="b1" class="game-position">
+									
+								</div>
+							</td>
+							<td>
+								<div id="b2" class="game-position">
+									
+								</div>
+							</td>
+							<td class="border-right-none">
+								<div id="b3" class="game-position">
+									
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td class="border-bottom-none border-left-none">
+								<div id="c1" class="game-position">
+									
+								</div>
+							</td>
+							<td class="border-bottom-none">
+								<div id="c2" class="game-position">
+									
+								</div>
+							</td>
+							<td class="border-bottom-none border-right-none">
+								<div id="c3" class="game-position">
+									
+								</div>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div>
+				<img src="images/player2.png">
+				<br />
+				<span id="player2-nick"></span>
+			</div>
+		</section>
+
+	</body>
+</html>

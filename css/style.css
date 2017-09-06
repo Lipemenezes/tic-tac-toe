@@ -1,0 +1,59 @@
+.border-right-none {
+	border-right: none !important;
+}
+
+.border-left-none {
+	border-left: none !important;
+}
+
+.border-bottom-none {
+	border-bottom: none !important;
+}
+
+.border-top-none {
+	border-top: none !important;
+}
+
+.game-position {
+	width: 100px;
+	height: 100px;
+}
+
+#menu-table > tbody > tr > td > input {
+	border: none;
+}
+
+#menu {
+	text-align: center;
+	width: 100%;
+}
+
+#menu-table {
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#menu-title {
+	text-align: center;
+	font-size: 20px;
+}
+
+#game {
+	margin-top: 60px;
+	text-align: center;
+}
+
+#game > div {
+	display: inline-block;
+}
+
+#game-table > tbody > tr > td {
+	width: 100px;
+	height: 100px;
+	border: 1px solid black;
+}
+
+#game > div > span {
+	text-align: center;
+}
